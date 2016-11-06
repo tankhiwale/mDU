@@ -1,0 +1,11 @@
+{
+  "name": "mDU",
+  "version": "1.0.0",
+  "description": "a disk usage viewer",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Mayank Tankhiwale",
+  "license": "MIT"
+}

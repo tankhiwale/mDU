@@ -13,7 +13,7 @@ app.on('ready', () => {
     tray.setToolTip('du app');
     tray.setHighlightMode('selection');
 
-    appWindow = new BrowserWindow({height: 270, width : 670, show: false});
+    appWindow = new BrowserWindow({height: 270, width : 670, show: false, frame: false});
     appWindow.loadURL('file://' + __dirname + '/index.html');
     appWindowPositioner = new AppWindowPositioner(appWindow);
 
